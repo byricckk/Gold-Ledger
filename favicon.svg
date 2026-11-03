@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFF0A6"/>
+      <stop offset="50%" stop-color="#D4A017"/>
+      <stop offset="100%" stop-color="#FFD700"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="64" height="64" rx="14" fill="#080808"/>
+
+  <!-- Gold Border -->
+  <circle cx="32" cy="32" r="29" fill="none"
+          stroke="url(#gold)" stroke-width="2"/>
+
+  <!-- Candlesticks -->
+  <g stroke-width="2">
+    <line x1="14" y1="23" x2="14" y2="43" stroke="#00D66B"/>
+    <rect x="11" y="29" width="6" height="10" fill="#00D66B"/>
+
+    <line x1="25" y1="18" x2="25" y2="42" stroke="#FF3333"/>
+    <rect x="22" y="23" width="6" height="12" fill="#FF3333"/>
+
+    <line x1="36" y1="14" x2="36" y2="38" stroke="#00D66B"/>
+    <rect x="33" y="20" width="6" height="12" fill="#00D66B"/>
+
+    <line x1="47" y1="11" x2="47" y2="34" stroke="#00D66B"/>
+    <rect x="44" y="16" width="6" height="12" fill="#00D66B"/>
+  </g>
+
+  <!-- Upward Trend Arrow -->
+  <path d="M12 49 Q30 44 49 20"
+        fill="none" stroke="url(#gold)"
+        stroke-width="2.5" stroke-linecap="round"/>
+
+  <path d="M41 20 L50 17 L51 26"
+        fill="none" stroke="url(#gold)"
+        stroke-width="2.5" stroke-linecap="round"
+        stroke-linejoin="round"/>
+
+  <!-- XAU Text -->
+  <text x="32" y="57"
+        font-family="Georgia, serif"
+        font-size="8"
+        font-weight="bold"
+        text-anchor="middle"
+        fill="#FFD700">XAU</text>
+</svg>

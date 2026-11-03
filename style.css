@@ -1,0 +1,33 @@
+h1{
+   color:blue;
+}
+
+
+.image-text {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    width:100%;
+}
+
+.image-text img {
+    width: calc(50% - 15px);
+    height: 400px;
+    object-fit: cover;
+    flex-shrink: 0;
+    height:70%;
+}
+
+.image-text p {
+    font-size: 18px;
+    flex:1;
+    line-height:1.6;
+    
+}
+marquee{
+      background-color:lightblue;
+      color:black;
+      border-radius:10px;
+      font-size:30px;
+}
+
